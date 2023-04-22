@@ -43,6 +43,8 @@ class CellForCollection: UICollectionViewCell {
         return nil
     }
     
+    //MARK: - Methods
+    
     func setupElements() {
         contentView.addSubview(label)
     }
@@ -56,19 +58,7 @@ class CellForCollection: UICollectionViewCell {
         ])
     }
     
-    func setup(indexPath: Int) {
-        
-        switch indexPath {
-        case 0: label.text = "Задание №1 \nГрадиент и Тень"
-        case 1: label.text = "Задание №2 \nТри кнопки"
-        case 2: label.text = "Задание №3 \nАнимация"
-        case 3: label.text = "Задание №4 \nТаблица"
-        case 4: label.text = "Задание №5 \nКомпактный контроллер"
-        case 5: label.text = "Задание №6 \nИнерционный квадрат"
-        case 6: label.text = "Задание №7 \nРастягивающаяся картинка"
-        case 7: label.text = "Задание №8 \nНативный аватар"
-        case 8: label.text = "Задание №9 \nЗаботливая коллекция"
-        default: label.text = ""
-        }
+    func setup(text: String) {
+        label.text = text
     }
 }
