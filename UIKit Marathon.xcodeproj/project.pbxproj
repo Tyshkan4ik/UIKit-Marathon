@@ -22,6 +22,7 @@
 		81D7890629F41FAA00574B16 /* Task7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890529F41FAA00574B16 /* Task7ViewController.swift */; };
 		81D7890829F41FB800574B16 /* Task8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890729F41FB800574B16 /* Task8ViewController.swift */; };
 		81D7890A29F41FC600574B16 /* Task9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890929F41FC600574B16 /* Task9ViewController.swift */; };
+		81D7890C29F4243200574B16 /* SquareGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890B29F4243200574B16 /* SquareGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		81D7890529F41FAA00574B16 /* Task7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task7ViewController.swift; sourceTree = "<group>"; };
 		81D7890729F41FB800574B16 /* Task8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task8ViewController.swift; sourceTree = "<group>"; };
 		81D7890929F41FC600574B16 /* Task9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task9ViewController.swift; sourceTree = "<group>"; };
+		81D7890B29F4243200574B16 /* SquareGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				81D788EE29F40C8700574B16 /* Task1ViewController.swift */,
+				81D7890B29F4243200574B16 /* SquareGradientView.swift */,
 			);
 			path = "№1 - Градиент и Тень";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81D7890629F41FAA00574B16 /* Task7ViewController.swift in Sources */,
+				81D7890C29F4243200574B16 /* SquareGradientView.swift in Sources */,
 				81D788F129F40DAD00574B16 /* Task2ViewController.swift in Sources */,
 				81D788DD29F3ECCA00574B16 /* ViewController.swift in Sources */,
 				81D7890029F41F8700574B16 /* Task4ViewController.swift in Sources */,

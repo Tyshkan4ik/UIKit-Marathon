@@ -8,23 +8,48 @@
 import UIKit
 
 class Task1ViewController: UIViewController {
-   
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemMint
-        // Do any additional setup after loading the view.
+    
+    /// Константы используемые в классе Task1ViewController
+    private enum Constants {
+        static let sideLenghtSquare: CGFloat = 150
+        static let xPosition: CGFloat = 100
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //MARK: - Properties
+    
+    private lazy var viewSquare: SquareGradientView = {
+        let view = SquareGradientView(
+            radius: 20,
+            colorGradient: [
+                UIColor.blue,
+                UIColor.cyan
+            ],
+            shadowOpacity: 0.8
+        )
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    //MARK: - Methods
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+        setupElements()
+        setupConstraints()
     }
-    */
-
+    
+    private func setupElements() {
+        view.addSubview(viewSquare)
+    }
+    
+    private func setupConstraints() {
+        NSLayoutConstraint.activate([
+            viewSquare.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: Constants.xPosition),
+            viewSquare.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            
+            viewSquare.heightAnchor.constraint(equalToConstant: Constants.sideLenghtSquare),
+            viewSquare.widthAnchor.constraint(equalToConstant: Constants.sideLenghtSquare)
+        ])
+    }
 }
