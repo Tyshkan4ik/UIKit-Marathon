@@ -23,6 +23,8 @@
 		81D7890829F41FB800574B16 /* Task8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890729F41FB800574B16 /* Task8ViewController.swift */; };
 		81D7890A29F41FC600574B16 /* Task9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890929F41FC600574B16 /* Task9ViewController.swift */; };
 		81D7890C29F4243200574B16 /* SquareGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890B29F4243200574B16 /* SquareGradientView.swift */; };
+		81D7890E29F5632B00574B16 /* Task2SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890D29F5632B00574B16 /* Task2SecondViewController.swift */; };
+		81D7891029F563D900574B16 /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7890F29F563D900574B16 /* MyCustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		81D7890729F41FB800574B16 /* Task8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task8ViewController.swift; sourceTree = "<group>"; };
 		81D7890929F41FC600574B16 /* Task9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task9ViewController.swift; sourceTree = "<group>"; };
 		81D7890B29F4243200574B16 /* SquareGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareGradientView.swift; sourceTree = "<group>"; };
+		81D7890D29F5632B00574B16 /* Task2SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2SecondViewController.swift; sourceTree = "<group>"; };
+		81D7890F29F563D900574B16 /* MyCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				81D788F029F40DAD00574B16 /* Task2ViewController.swift */,
+				81D7890D29F5632B00574B16 /* Task2SecondViewController.swift */,
+				81D7890F29F563D900574B16 /* MyCustomButton.swift */,
 			);
 			path = "№2 - Три кнопки";
 			sourceTree = "<group>";
@@ -264,11 +270,13 @@
 				81D788DD29F3ECCA00574B16 /* ViewController.swift in Sources */,
 				81D7890029F41F8700574B16 /* Task4ViewController.swift in Sources */,
 				81D788ED29F3FA4F00574B16 /* CellForCollection.swift in Sources */,
+				81D7890E29F5632B00574B16 /* Task2SecondViewController.swift in Sources */,
 				81D7890429F41F9E00574B16 /* Task6ViewController.swift in Sources */,
 				81D7890829F41FB800574B16 /* Task8ViewController.swift in Sources */,
 				81D788D929F3ECCA00574B16 /* AppDelegate.swift in Sources */,
 				81D7890229F41F9200574B16 /* Task5ViewController.swift in Sources */,
 				81D7890A29F41FC600574B16 /* Task9ViewController.swift in Sources */,
+				81D7891029F563D900574B16 /* MyCustomButton.swift in Sources */,
 				81D788FE29F41F6D00574B16 /* Task3ViewController.swift in Sources */,
 				81D788EF29F40C8700574B16 /* Task1ViewController.swift in Sources */,
 				81D788DB29F3ECCA00574B16 /* SceneDelegate.swift in Sources */,
