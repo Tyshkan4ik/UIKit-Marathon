@@ -42,7 +42,7 @@ class Task2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
+        view.backgroundColor = .white
         setupElements()
         setupConstraints()
         button3.addTarget(self, action: #selector(tupOnNextScen), for: .touchUpInside)
