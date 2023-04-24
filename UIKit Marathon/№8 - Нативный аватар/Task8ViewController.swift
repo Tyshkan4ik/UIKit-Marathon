@@ -90,10 +90,14 @@ class Task8ViewController: UIViewController {
                     viewAvatar.translatesAutoresizingMaskIntoConstraints = false
                     
                     NSLayoutConstraint.activate([
-                        viewAvatar.rightAnchor.constraint(equalTo: largeTitleView.rightAnchor,
-                                                          constant: Constants.imageAvatarRightConstant),
-                        viewAvatar.bottomAnchor.constraint(equalTo: largeTitleView.bottomAnchor,
-                                                           constant: Constants.imageAvatarBottomConstant),
+                        viewAvatar.rightAnchor.constraint(
+                            equalTo: largeTitleView.rightAnchor,
+                            constant: Constants.imageAvatarRightConstant
+                        ),
+                        viewAvatar.bottomAnchor.constraint(
+                            equalTo: largeTitleView.bottomAnchor,
+                            constant: Constants.imageAvatarBottomConstant
+                        ),
                         viewAvatar.heightAnchor.constraint(equalToConstant: Constants.imageAvatarSize),
                         viewAvatar.widthAnchor.constraint(equalTo: viewAvatar.heightAnchor)
                     ])
